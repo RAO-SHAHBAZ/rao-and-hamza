@@ -1,8 +1,13 @@
+import { Button } from '@/components/ui/button'
 import React from 'react'
 
 function Home() {
   return (
-    <div>Home ndjycgdjhgvejhvdhnh</div>
+    <div>
+      <Button>
+      HELOOW HMZA
+      </Button>
+    </div>
   )
 }
 

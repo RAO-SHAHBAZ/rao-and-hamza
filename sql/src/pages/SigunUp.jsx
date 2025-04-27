@@ -3,6 +3,7 @@ import axios from "axios";
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Card } from '../components/ui/card';
+import { Link } from "react-router-dom";
 
 function Signup() {
   const [formData, setFormData] = useState({
@@ -92,6 +93,11 @@ function Signup() {
           >
             Sign Up
           </Button>
+          <Link
+           to="/LOGIN"
+          >
+            Login
+          </Link>
         </form>
       </Card>
     </div>
